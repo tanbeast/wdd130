@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #592f6d   ;
+  --primary-color:#592f6d;
   --secondary-color:#AF9B46 ;
   --accent1-color:#0B6E4F;
-  --accent2-color: #00a896;
+  --accent2-color:#E8998D;
   /* change the values below to your font(s) */
   --heading-font: "Dancing Script";
   --paragraph-font: "Mooli", Helvetica, sans-serif;
