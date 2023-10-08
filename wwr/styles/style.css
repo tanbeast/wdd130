@@ -48,6 +48,7 @@ footer a:hover{
 }
 
 footer p{
+    color: #AF9b46;
     font-size: 1.2em;
 }
 
@@ -61,9 +62,13 @@ nav a:hover {
 }
 
 .book, .join{
-    background-color:#084b36;
-    color: #AF9b46;
+    background-color:#00A896;
+    color:  #592f6d;
     text-decoration: none;
+}
+
+.book:hover, .join:hover{
+    color:   #AF9b46;
 }
 
 .msg{
@@ -76,10 +81,6 @@ nav a:hover {
 
 h4{
     color: #592f6d;
-}
-
-.book:hover, .join:hover{
-    color: #00A896;
 }
 
 .msg h2{
@@ -98,4 +99,6 @@ h4{
     width: 80px;
 }
 
-
+#hero-img{
+    width: 100%;
+}
