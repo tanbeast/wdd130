@@ -50,7 +50,7 @@ body {
 }
 
 header {
-    background-color: #084b36;
+    background-color: #592f6d;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -61,7 +61,7 @@ nav {
 }
 
 footer{
-    background-color: #084b36;
+    background-color: #592f6d;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -100,7 +100,7 @@ nav a{
 
 nav a:hover {
     background-color: #AF9b46;
-    color:#084b36;
+    color:#592f6d;
 }
 
 .book, .join{
@@ -229,7 +229,7 @@ h4{
 }
 
 .msg{
-    background-color:  #084b36;
+    background-color:  #592f6d;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
