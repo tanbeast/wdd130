@@ -100,12 +100,12 @@ nav a{
 
 nav a:hover {
     background-color: #AF9b46;
-    color: #592f6d;
+    color:#084b36;
 }
 
 .book, .join{
     background-color:#00A896;
-    color:  #592f6d;
+    color:  #084b36;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .home-title{
-    color: #592f6d;
+    color: #AF9b46;
     font-size: 2em;
     margin-top: 10px;
 }
