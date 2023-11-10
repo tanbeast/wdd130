@@ -237,6 +237,21 @@ h4{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*Rivers page*/
+.Rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.salmon{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
