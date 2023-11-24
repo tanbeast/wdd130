@@ -4,83 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wireframe to html</title>
+    <style>
+        section {
+        width: 50%;
+        border: 1px solid;
+        }
+        .block2, .block4{
+        margin: 0 auto;
+        }
+        .block3{
+        margin-left: auto;
+        }
+        p:nth-of-type(2){
+        text-align: center;
+        }
+        p:nth-of-type(3){
+        text-align: right;
+        }
+        .block4 p:nth-of-type(1){
+        text-align: right;
+        }
+
+        .block4 p:nth-of-type(3){
+        text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="logo-box">
-            <img src="https://picsum.photos/75/75" alt="logo">
-        </div>
-        <nav>
-            <a href="index.html">home</a>
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-        </nav>
-    </header>
-    <main>
-        <div id="banner-box">
-            <section class="banner">
-                <img src="https://picsum.photos/1000/300" alt="banner image">
-                <h2>Banner 1 title</h2>
-                <p>Banner 1 text paragragh</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/1000/300" alt="banner image">
-                <h2>Banner 2 title</h2>
-                <p>Banner 2 text paragragh</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/1000/300" alt="banner image">
-                <h2>Banner 3 title</h2>
-                <p>Banner 3 text paragragh</p>
-            </section>
-        </div>
-        <div id="product-gallery">
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 1 title</h2>
-                <p>product 1 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 2 title</h2>
-                <p>product 2 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 3 title</h2>
-                <p>product 3 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 4 title</h2>
-                <p>product 4 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 5 title</h2>
-                <p>product 5 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 6 title</h2>
-                <p>product 6 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 7 title</h2>
-                <p>product 7 discription</p>
-            </section>
-            <section class="banner">
-                <img src="https://picsum.photos/250/250" alt="product image">
-                <h2>product 8 title</h2>
-                <p>product 8 discription</p>
-            </section>
-
-        </div>
-    </main>
-    <footer>
-
-    </footer>
+    <div class="content">
+        <h1>Block vs Inline alignment</h1>
+        <p>Earlier in the semester you were introduced to the concept of
+                    <kbd>block</kbd> and <kbd>inline</kbd> elements. Blocks flow
+                    vertically down the page by default, and inline flows horizontally across.
+                    You were also shown how to center both inline and block elements.
+                    Let's review that again now. Follow the activity instructions to make this poem flow down the page.</p>
+      </div>
+      <div class="poem">
+        <section class="block1">
+          <h2>The Cataract of Lodore</h2>
+          <p>...The cataract strong</p>
+          <p> Then plunges along,</p>
+          <p>Striking and raging</p>
+        </section>
+        <section class="block2">
+          <p>As if a war waging Its caverns and rocks among;</p>
+          <p> Rising and leaping, Sinking and creeping,</p>
+          <p> Swelling and sweeping, Showering and springing,</p>
+        </section>
+        <section class="block3">
+          <p> Flying and flinging, Writhing and ringing, </p>
+          <p>Eddying and whisking, Spouting and frisking,</p>
+          <p> Turning and twisting,</p> 
+          
+       </section>
+        <section class="block4">
+          <p>Around and around With endless rebound:</p>
+          <p> Smiting and fighting, A sight to delight in;</p>
+          <p> Confounding, astounding, Dizzying and deafening</p>
+          <p> the ear with its sound.</p>
+        </section>
+      </div>
+    
 </body>
 </html>
