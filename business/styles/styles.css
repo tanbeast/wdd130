@@ -78,12 +78,13 @@ nav a:hover {
     width: 60%;
 }
 
-main p{
+.home-grid p{
     padding: 8%;
     line-height: 1.5em;
-    text-size-adjust: 1.5;
+    text-size-adjust: 3em;
 }
 
+/* code for the home page*/
 .home-grid {
     display: grid;
     grid-template-rows: 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -102,7 +103,7 @@ main p{
 
 #msg1{
     grid-row-start:2;
-    grid-column: 5/9;
+    grid-column: 5/10;
 }
 
 #img2{
@@ -137,6 +138,8 @@ main p{
 #msg1, #msg2, #msg3, #goal{
     background-color: #829191;
     color:black;
+    font-size: 1.2em;
+
 }
 
 footer{
