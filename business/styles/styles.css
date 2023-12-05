@@ -264,8 +264,19 @@ footer a:hover{
 }
 
 @media screen and (max-width: 900px){
-    /*gallery*/
-    
+    /*home*/
+    #img1, #img2, #img3{
+        display: none;
+    }
+    /*.home-grid{ 
+        background-image: url("images/OIP.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }*/
+
+
+    /*gallery*/ 
     .gallery-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -283,7 +294,4 @@ footer a:hover{
         width: 250px;
     }
     /*team*/
-    #kadepic{
-        content: url("images/myphoto-s.jpg");
-    }
 }
