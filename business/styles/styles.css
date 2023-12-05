@@ -128,7 +128,7 @@ footer a:hover{
 
 #msg1{
     grid-row-start:2;
-    grid-column: 5/10;
+    grid-column: 5/11;
 }
 
 #img2{
@@ -146,24 +146,24 @@ footer a:hover{
 
 #goal{
     grid-column: 9/11;
-    grid-row: 5/7;
+    grid-row: 8/10;
 }
 
 #img3{
     grid-column: 2/8;
-    grid-row: 6/8;
+    grid-row: 10/12;
     z-index: -1;
 }
 
 #msg3{
     grid-column: 6/11;
-    grid-row:7/10;
+    grid-row:11/14;
 }
 
 #msg1, #msg2, #msg3, #goal{
     background-color: #829191;
     color:black;
-    font-size: 1.2em;
+    font-size: 1.4em;
 
 }
 
@@ -222,5 +222,68 @@ footer a:hover{
 /* this is for the gallery*/
 .gallery-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#gallery-welcome{
+    grid-column: 1/14;
+    text-align: center;
+}
+
+
+
+.dice, .clocks{
+    
+    grid-column: 3/7;
+}
+
+.boards, .stuff{
+    grid-column: 9/13;
+}
+
+.galtext{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1200px){
+    /*for home page*/
+    #goal{
+        display: none;
+    }
+    #img2{
+        grid-row-start: 4;
+        width: 700px;
+    }
+    #msg2{
+        grid-row-start: 4;
+    }
+    /*gallery*/
+    .galimg{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    /*gallery*/
+    
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .dice, .clocks, .boards, .stuff{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 2/5;
+    }
+    .galtext{
+        grid-column: 1/4;
+    }
+    .galimg{
+        grid-column: 2/3;
+        width: 250px;
+    }
+    /*team*/
+    #kadepic{
+        content: url("images/myphoto-s.jpg");
+    }
 }
